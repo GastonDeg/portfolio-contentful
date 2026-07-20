@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gastón Degiorgi | Desarrollador Web Full Stack</title>
+
+    <meta name="description"
+        content="Portfolio personal de Gastón Degiorgi. Desarrollador Web Full Stack especializado en HTML, CSS, JavaScript y Node.js.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container header__container">
+
+            <a href="#inicio" class="logo">
+                <img src="./img/logo.png" alt="Logo de Gastón Degiorgi">
+            </a>
+
+            <nav class="nav">
+
+                <a href="#inicio">Inicio</a>
+
+                <a href="#sobre-mi">Sobre mí</a>
+
+                <a href="#proyectos">Proyectos</a>
+
+                <a href="#contacto">Contacto</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="inicio">
+
+        <div class="container hero__container">
+
+            <div class="hero__content">
+
+                <span class="hero__subtitle">
+                    👋 Hola, soy
+                </span>
+
+                <h1>
+                    Gastón Degiorgi
+                </h1>
+
+                <h2>
+                    Desarrollador Web Full Stack
+                </h2>
+
+                <p>
+
+                    Actualmente me encuentro formándome como desarrollador web,
+                    creando aplicaciones modernas, responsivas y dinámicas con
+                    HTML, CSS, JavaScript, TypeScript y Node.js.
+
+                    Me apasiona aprender nuevas tecnologías y transformar ideas
+                    en soluciones reales.
+
+                </p>
+
+                <div class="hero__buttons">
+
+                    <a href="#proyectos" class="btn btn--primary">
+
+                        Ver proyectos
+
+                    </a>
+
+                    <a href="#contacto" class="btn btn--secondary">
+
+                        Contactarme
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero__image">
+
+                <img src="./img/foto.png" alt="Foto de Gastón Degiorgi">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SOBRE MI ================= -->
+
+    <section class="about" id="sobre-mi">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Conóceme</span>
+
+                <h2>Sobre mí</h2>
+
+            </div>
+
+            <div class="about__content">
+
+                <div class="about__image">
+
+                    <img src="./img/verificado.png" alt="Icono">
+
+                </div>
+
+                <div class="about__text">
+
+                    <p>
+
+                        Soy una persona responsable, organizada y comprometida
+                        con cada proyecto que realizo.
+
+                        Tengo experiencia laboral en atención al cliente,
+                        reposición de mercadería y control de stock, lo que me
+                        permitió desarrollar habilidades de comunicación,
+                        organización y trabajo en equipo.
+
+                    </p>
+
+                    <p>
+
+                        Actualmente me especializo en Desarrollo Web Full Stack
+                        aprendiendo tecnologías modernas para construir sitios
+                        web rápidos, escalables y con una excelente experiencia
+                        de usuario.
+
+                    </p>
+
+                    <div class="skills">
+
+                        <span>HTML5</span>
+
+                        <span>CSS3</span>
+
+                        <span>JavaScript</span>
+
+                        <span>TypeScript</span>
+
+                        <span>Node.js</span>
+
+                        <span>Git</span>
+
+                        <span>GitHub</span>
+
+                        <span>Responsive Design</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROYECTOS ================= -->
+
+    <section class="projects" id="proyectos">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>Portfolio</span>
+
+                <h2>Mis proyectos</h2>
+
+            </div>
+
+            <!--
+                Las tarjetas serán agregadas automáticamente
+                desde Contentful con JavaScript.
+            -->
+
+            <div class="projects__container">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+
+    <section class="contact" id="contacto">
+
+        <div class="container contact__container">
+
+            <div class="contact__info">
+
+                <span>¿Trabajamos juntos?</span>
+
+                <h2>Contacto</h2>
+
+                <p>
+
+                    Si tenés una propuesta, un proyecto o simplemente querés
+                    ponerte en contacto conmigo, podés escribirme mediante este
+                    formulario o a través de mis redes.
+
+                </p>
+
+                <div class="contact__links">
+
+                    <a href="mailto:gastondeg@outlook.com">
+
+                        📧 gastondeg@outlook.com
+
+                    </a>
+
+                    <a href="https://github.com/" target="_blank">
+
+                        💻 GitHub
+
+                    </a>
+
+                    <a href="https://linkedin.com/" target="_blank">
+
+                        💼 LinkedIn
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <form class="contact__form">
+
+                <label for="name">
+
+                    Nombre
+
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required>
+
+                <label for="email">
+
+                    Email
+
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required>
+
+                <label for="message">
+
+                    Mensaje
+
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required></textarea>
+
+                <button class="btn btn--primary" type="submit">
+
+                    Enviar mensaje
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer__container">
+
+            <div class="footer__logo">
+
+                <img src="./img/logo.png" alt="Logo">
+
+                <p>
+
+                    © 2026 Gastón Degiorgi
+
+                </p>
+
+            </div>
+
+            <div class="footer__copy">
+
+                <p>
+
+                    Desarrollado con HTML5, CSS3 y JavaScript.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
